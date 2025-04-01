@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de UCs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+
+    <section id="fase1">
+
+        <div class="container">
+            <div id="alinhamento">
+                <img id="img-perfil" src="img/foto-perfil.jpeg" alt="">    
+
+                <h1 id="tituloCentral">Felipe <span>Bastos</span></h1>
+            
+            </div>
+           
+            <h1>Meus objetivos profissionais</h1>
+            
+            <p> Meu objetivo é me formar na faculdade, ingressar na area de ti
+        
+        </p>
+        <hr style="height:3px; border:none; color:rgb(60,90,180); background-color:lightblue;">
+
+        <h2>Hobbies</h2>
+        <li>Jogar</li>
+        <li>Codar</li>
+        <li>Sair</li>
+        <li>Academia</li>
+        <br>
+        <hr style="height:3px; border:none; color:rgb(60,90,180); background-color:lightblue;">
+
+        <br><br>
+        <a  href="https://www.hostgator.com.br/blog/o-que-e-javascript/?gad_source=1&gclid=Cj0KCQjwna6_BhCbARIsALId2Z2MHlgUdVeO8rcupj5nrGbHq_WfqYvkIa_VSNo3wZwbGnx-v1Nct7UaAlcIEALw_wcB"> <img class="js-tamanho" src="img/image.png" alt=""></a>
+        <a  href="https://www.devmedia.com.br/html-basico-codigos-html/16596"> <img class="js-tamanho2" src="img/html-icon.png" alt=""></a>
+        <a  href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Styling_basics/Getting_started"> <img class="js-tamanho3" src="img/css-icon.png" alt=""></a>
+        
+          
+        </div>
+      
+    </section>
+    <hr style="height:3px; border:none; color:rgb(60,90,180); background-color:lightblue;">
+
+    <section id="fase2">
+
+        <h3>Dados Pessoais</h3>
+        <form>
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome"><br>
+    
+            <label>CPF:</label>
+            <input type="text" id="cpf" placeholder="000.000.000-00" onblur="validarCPF()"><br>
+    
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="exemplo@email.com" onblur="validarEmail()"><br>
+    
+            <label>Descrição Pessoal:</label>
+            <input type="text" id="descricao" placeholder="Descreva-se..."><br>
+        </form>
+        <h3>Lista de UCs Cursadas</h3>
+        <input type="text" id="novaUC" placeholder="Nome da UC">
+        <button id="adduc" onclick="adicionarUC()">Adicionar UC</button>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>UC</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="listaUCs">
+                <tr>
+                  
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+   
+
+   
+<section>
+    <div id="rodape">
+        <h3>e-mail:</h3> <h4>felipebastos.una@gmail.com</h4>
+
+    </div>
+   
+
+</section>
+</body>
+</html>
